@@ -1,0 +1,51 @@
+.header-bg
+{
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #0028ac), color-stop(100, #00caff));
+    background: -moz-linear-gradient(top left, #0028ac 0%, #00caff 100%);
+    background: -ms-linear-gradient(top left, #0028ac 0%, #00caff 100%);
+    background: -o-linear-gradient(top left, #0028ac 0%, #00caff 100%);
+    background: linear-gradient(to bottom right, #0028ac 0%, #00caff 100%);
+}
+.text-color
+{
+    color: white;
+}
+.text-color:hover
+{
+    color: #a3f7ff;
+}
+.hover-line {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+.hover-line:before, .hover-line:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    top: 100%;
+    background: #a3f7ff;
+  }
+  
+  .hover-line:before {
+    left: -.5px;
+  }
+  .hover-line:after {
+    right: 2.5px;
+    background: #a3f7ff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+  .hover-line:hover:before {
+    background: #a3f7ff;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+  .hover-line:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }

@@ -1,0 +1,24 @@
+#imgDiv {
+	border-radius: 50%;
+	width: calc(3rem + 3vmin);
+	height: calc(3rem + 3vmin);
+	position: relative;
+	box-shadow: 3px -2px rgb(79, 143, 226);
+	background-size: cover;
+	margin-bottom: calc(0.7rem + 0.5vmin);
+	display: block;
+	margin: 0 auto 0 auto;
+}
+#middle {
+	/* border-radius: 50%; */
+	/* width: calc(3rem + 3vmin); */
+	/* height: calc(3rem + 3vmin); */
+	width: 100px;
+	height: auto;
+	position: relative;
+	/* box-shadow: 3px -2px rgb(79, 143, 226); */
+	background-size: cover;
+	/* margin-bottom: calc(0.7rem + 0.5vmin); */
+	display: block;
+	margin: 0 auto 0 auto;
+}
